@@ -61,7 +61,7 @@ export const PROJECTS: Project[] = [
       "WebSockets",
     ],
     links: {
-      github: "https://github.com/aryanmane",
+      github: "https://github.com/manearyan5222/portfolio",
     },
     accentColor: "#4F46E5",
     year: "2025–2026",
@@ -153,7 +153,7 @@ export const PROJECTS: Project[] = [
       "React",
     ],
     links: {
-      github: "https://github.com/aryanmane",
+      github: "https://github.com/manearyan5222/portfolio",
     },
     accentColor: "#0EA5E9",
     year: "2026",
@@ -244,7 +244,7 @@ export const PROJECTS: Project[] = [
       "Lucide React",
     ],
     links: {
-      github: "https://github.com/aryanmane",
+      github: "https://github.com/manearyan5222/portfolio",
     },
     accentColor: "#10B981",
     year: "2026",
@@ -335,7 +335,7 @@ export const PROJECTS: Project[] = [
       "REST APIs",
     ],
     links: {
-      github: "https://github.com/aryanmane",
+      github: "https://github.com/manearyan5222/portfolio",
     },
     accentColor: "#F59E0B",
     year: "2026",
@@ -426,7 +426,7 @@ export const PROJECTS: Project[] = [
       "Node.js",
     ],
     links: {
-      github: "https://github.com/aryanmane",
+      github: "https://github.com/manearyan5222/portfolio",
     },
     accentColor: "#EC4899",
     year: "Ongoing",

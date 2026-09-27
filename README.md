@@ -12,7 +12,7 @@
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-13.0-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-[**🌐 Live Portfolio**](https://aryan-mane-portfolio.vercel.app) · [**📁 View Repositories**](https://github.com/aryanmane) · [**💼 LinkedIn Profile**](https://linkedin.com/in/aryanmane)
+[**🌐 Live Portfolio**](https://aryan-mane-portfolio.vercel.app) · [**📁 View Repositories**](https://github.com/manearyan5222) · [**💼 LinkedIn Profile**](https://linkedin.com/in/aryanmane)
 
 ---
 
@@ -28,11 +28,11 @@ This repository contains the source code for **Aryan Mane's Personal Portfolio &
 
 | Project | Domain | Key Technologies | Description |
 | :--- | :--- | :--- | :--- |
-| **[Sentinel AI](https://github.com/aryanmane)** | Computer Vision & Edge AI | `PyTorch`, `YOLOv11`, `OpenCV`, `FastAPI`, `WebSockets` | Edge computer vision hazard detection system with sub-50ms inference. |
-| **[Shashwat Hospital Telemetry](https://github.com/aryanmane)** | IoT & Telemetry Platform | `ESP32`, `C++`, `MQTT`, `Next.js`, `Tailwind CSS` | Remote patient vitals telemetry monitoring pipeline with emergency alerts. |
-| **[Citizen Development Platform](https://github.com/aryanmane)** | Web Systems & Workflows | `React`, `TypeScript`, `Node.js`, `REST APIs` | No-code process builder for enterprise task automation and workflow logic. |
-| **[AI Vacation & Trip Planner](https://github.com/aryanmane)** | Generative AI & Web | `Next.js`, `Gemini API`, `Tailwind CSS`, `Framer Motion` | Multi-destination AI travel planner with real-time budget forecasting. |
-| **[The Lab / Experiments](https://github.com/aryanmane)** | R&D & Prototyping | `WebRTC`, `C++`, `Python`, `TFLite` | Low-latency WebRTC streams, lightweight vision benchmarks, and IoT experiments. |
+| **[Sentinel AI](https://github.com/manearyan5222)** | Computer Vision & Edge AI | `PyTorch`, `YOLOv11`, `OpenCV`, `FastAPI`, `WebSockets` | Edge computer vision hazard detection system with sub-50ms inference. |
+| **[Shashwat Hospital Telemetry](https://github.com/manearyan5222)** | IoT & Telemetry Platform | `ESP32`, `C++`, `MQTT`, `Next.js`, `Tailwind CSS` | Remote patient vitals telemetry monitoring pipeline with emergency alerts. |
+| **[Citizen Development Platform](https://github.com/manearyan5222)** | Web Systems & Workflows | `React`, `TypeScript`, `Node.js`, `REST APIs` | No-code process builder for enterprise task automation and workflow logic. |
+| **[AI Vacation & Trip Planner](https://github.com/manearyan5222)** | Generative AI & Web | `Next.js`, `Gemini API`, `Tailwind CSS`, `Framer Motion` | Multi-destination AI travel planner with real-time budget forecasting. |
+| **[The Lab / Experiments](https://github.com/manearyan5222)** | R&D & Prototyping | `WebRTC`, `C++`, `Python`, `TFLite` | Low-latency WebRTC streams, lightweight vision benchmarks, and IoT experiments. |
 
 ---
 
@@ -103,6 +103,6 @@ The output will be compiled into `./out` ready for deployment on **Vercel**, **G
 
 <div align="center">
 
-**Built by [Aryan Mane](https://github.com/aryanmane) · 2026**
+**Built by [Aryan Mane](https://github.com/manearyan5222) · 2026**
 
 </div>

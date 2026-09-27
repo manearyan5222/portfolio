@@ -109,7 +109,7 @@ export const PERSONAL_INFO: PersonalInfo = {
     },
   ],
   socials: {
-    github: "https://github.com/aryanmane",
+    github: "https://github.com/manearyan5222",
     linkedin: "https://linkedin.com/in/aryanmane",
     email: "aryanmane.dev@gmail.com",
     twitter: "https://x.com/aryanmanedev",
