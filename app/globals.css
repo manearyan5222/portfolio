@@ -1,26 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: var(--font-geist-sans), 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: var(--font-geist-mono), 'JetBrains Mono', monospace;
+  --font-serif: "Instrument Serif", Georgia, "Times New Roman", serif;
+
+  --color-page-bg: var(--bg-primary);
+  --color-page-surface: var(--bg-surface);
+  --color-page-surface-subtle: var(--bg-surface-subtle);
+  --color-page-card: var(--bg-card);
+  --color-page-border: var(--border-color);
+  --color-page-border-hover: var(--border-hover);
+  --color-page-text-primary: var(--text-primary);
+  --color-page-text-secondary: var(--text-secondary);
+  --color-page-text-muted: var(--text-muted);
+  --color-page-accent: var(--accent);
+  --color-page-accent-hover: var(--accent-hover);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg-primary: #F7F7F5;
+  --bg-surface: #FFFFFF;
+  --bg-surface-subtle: #EFEFEA;
+  --bg-card: #FFFFFF;
+  --border-color: #DCDCD7;
+  --border-hover: #A8A8A2;
+  --text-primary: #111111;
+  --text-secondary: #6B6B6B;
+  --text-muted: #949490;
+  --accent: #4F46E5;
+  --accent-hover: #4338CA;
+  --accent-muted: rgba(79, 70, 229, 0.08);
+  --badge-bg: #ECECE8;
+  --cursor-color: #111111;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.dark {
+  --bg-primary: #0D0D0E;
+  --bg-surface: #141416;
+  --bg-surface-subtle: #1A1A1E;
+  --bg-card: #161619;
+  --border-color: #242428;
+  --border-hover: #3E3E45;
+  --text-primary: #F3F3F2;
+  --text-secondary: #9E9E9E;
+  --text-muted: #68686C;
+  --accent: #6366F1;
+  --accent-hover: #818CF8;
+  --accent-muted: rgba(99, 102, 241, 0.12);
+  --badge-bg: #1E1E23;
+  --cursor-color: #F3F3F2;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  color-scheme: light dark;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  min-height: 100vh;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background-color: #4F46E5;
+  color: #FFFFFF;
+}
+
+.dark ::selection {
+  background-color: #6366F1;
+  color: #FFFFFF;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border-hover);
+}
+
+/* Editorial Serif Utility */
+.font-editorial {
+  font-family: "Instrument Serif", Georgia, serif;
+}
+
+/* Monospace Utility */
+.font-mono-code {
+  font-family: var(--font-mono);
+  letter-spacing: -0.02em;
+}
+
+/* Grid pattern utility */
+.subtle-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, var(--border-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border-color) 1px, transparent 1px);
+  opacity: 0.25;
+}
+
+.dark .subtle-grid-pattern {
+  opacity: 0.18;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
