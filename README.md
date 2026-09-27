@@ -12,9 +12,11 @@
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-13.0-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 [![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/manearyan5222/portfolio&project-name=aryan-mane-portfolio)
+[**🌐 Live Website (Vercel)**](https://aryan-mane-portfolio.vercel.app) · [**⚡ GitHub Pages**](https://manearyan5222.github.io/portfolio/) · [**💼 LinkedIn Profile**](https://linkedin.com/in/aryanmane)
 
-[**📁 View GitHub Repository**](https://github.com/manearyan5222/portfolio) · [**💼 LinkedIn Profile**](https://linkedin.com/in/aryanmane)
+<br/>
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/manearyan5222/portfolio&project-name=aryan-mane-portfolio)
 
 ---
 
