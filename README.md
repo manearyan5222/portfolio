@@ -1,46 +1,73 @@
-# Aryan Mane — Personal Portfolio & Project Showcase
+<div align="center">
 
-> **AI & Technology Enthusiast · Student Developer · Builder**
->
-> *"I build ideas into practical technology."*
+# ✦ Aryan Mane — Developer Portfolio ✦
 
-A minimal, editorial personal portfolio website built with **Next.js 16 (App Router)**, **TypeScript**, **Tailwind CSS v4**, and **Framer Motion**. Designed with an obsidian dark mode, warm off-white baseline typography, custom interactive UI mockups, and zero fluff.
+**AI & Technology Enthusiast · Student Developer · Software Builder**
 
----
+*“I build ideas into practical technology.”*
 
-## ⚡ Key Features
+[![Next.js](https://img.shields.io/badge/Next.js-16.3-black?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-13.0-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-- **Editorial & Minimal Aesthetic**: High whitespace, warm off-white light mode (`#F7F7F5`), obsidian dark mode (`#0D0D0E`), and electric indigo accents (`#4F46E5`).
-- **Authentic Build Showcase**: Detailed case studies for actual projects:
-  - **Sentinel AI**: Edge Vision & Multi-Modal Real-Time Hazard Detection.
-  - **Shashwat Hospital Telemetry Platform**: Real-time IoT patient monitoring pipeline.
-  - **Citizen Development Platform**: No-code workflow builder for operational task automation.
-  - **AI Vacation & Trip Planner**: Multi-destination itinerary generator with live budget tracking.
-  - **The Lab / Experiments**: WebRTC low-latency streaming, lightweight YOLO vision benchmarks, and ESP32 telemetry.
-- **Interactive Component Mockups**: Custom SVG/CSS dynamic project previews built natively into case study cards.
-- **Fully Responsive & Accessible**: Built with semantic HTML, fluid typography, system dark mode support, and smooth scroll navigation.
+[**🌐 Live Portfolio**](https://aryan-mane-portfolio.vercel.app) · [**📁 View Repositories**](https://github.com/aryanmane) · [**💼 LinkedIn Profile**](https://linkedin.com/in/aryanmane)
 
 ---
 
-## 🛠️ Tech Stack
+</div>
 
-- **Framework**: [Next.js 16](https://nextjs.org/) (App Router & Static Export)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) & Vanilla CSS Tokens
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Deployment**: [Vercel](https://vercel.com/) / [GitHub Pages](https://pages.github.com/)
+## 📌 Overview
+
+This repository contains the source code for **Aryan Mane's Personal Portfolio & Applied Technology Showcase**. Built with an editorial minimalist design system, high-contrast obsidian dark mode, warm off-white baseline typography, custom SVG interactive project interfaces, and responsive navigation.
 
 ---
 
-## 🚀 Getting Started Locally
+## 🚀 Featured Projects Built & Showcased
 
-### Prerequisites
+| Project | Domain | Key Technologies | Description |
+| :--- | :--- | :--- | :--- |
+| **[Sentinel AI](https://github.com/aryanmane)** | Computer Vision & Edge AI | `PyTorch`, `YOLOv11`, `OpenCV`, `FastAPI`, `WebSockets` | Edge computer vision hazard detection system with sub-50ms inference. |
+| **[Shashwat Hospital Telemetry](https://github.com/aryanmane)** | IoT & Telemetry Platform | `ESP32`, `C++`, `MQTT`, `Next.js`, `Tailwind CSS` | Remote patient vitals telemetry monitoring pipeline with emergency alerts. |
+| **[Citizen Development Platform](https://github.com/aryanmane)** | Web Systems & Workflows | `React`, `TypeScript`, `Node.js`, `REST APIs` | No-code process builder for enterprise task automation and workflow logic. |
+| **[AI Vacation & Trip Planner](https://github.com/aryanmane)** | Generative AI & Web | `Next.js`, `Gemini API`, `Tailwind CSS`, `Framer Motion` | Multi-destination AI travel planner with real-time budget forecasting. |
+| **[The Lab / Experiments](https://github.com/aryanmane)** | R&D & Prototyping | `WebRTC`, `C++`, `Python`, `TFLite` | Low-latency WebRTC streams, lightweight vision benchmarks, and IoT experiments. |
 
-- Node.js 20+ installed
-- npm or yarn or pnpm
+---
 
-### Installation
+## 🎨 Design System & Highlights
+
+- **Obsidian & Light Theme**: Built-in system theme switcher powered by `next-themes` with custom HSL CSS color variables.
+- **Editorial Typography**: Styled with Google Fonts (Geist Sans, Geist Mono, Instrument Serif italics).
+- **Interactive UI Mockups**: Component-driven dynamic SVG preview widgets for each project case study.
+- **Micro-Animations**: Smooth scroll triggers, hover dynamics, and spring physics built with `framer-motion`.
+
+---
+
+## 🛠️ Project Structure
+
+```text
+aryan-mane-portfolio/
+├── app/
+│   ├── globals.css              # Theme CSS variables & utilities
+│   ├── layout.tsx               # Root layout, fonts, and meta headers
+│   ├── page.tsx                 # Main portfolio page assembly
+│   ├── not-found.tsx            # Custom 404 page
+│   └── work/
+│       └── [slug]/page.tsx      # Dynamic project case study pages
+├── components/
+│   ├── layout/                  # Navbar, Footer, ThemeToggle, CustomCursor
+│   ├── sections/                # Hero, About, SelectedWork, Skills, Journey, Hackathons, Contact
+│   └── ui/                      # SectionHeading, MagneticButton, Icons, ProjectMockups
+├── data/                        # Structured data models (personal, projects, skills, journey)
+├── lib/                         # Animation variants & utility helpers
+└── public/                      # Static assets and icons
+```
+
+---
+
+## 💻 Local Setup & Development
 
 1. **Clone the repository**:
    ```bash
@@ -53,36 +80,29 @@ A minimal, editorial personal portfolio website built with **Next.js 16 (App Rou
    npm install
    ```
 
-3. **Run the local development server**:
+3. **Start the local dev server**:
    ```bash
    npm run dev
    ```
 
-4. **Open your browser**:
-   Navigate to [http://localhost:3000](http://localhost:3000).
+4. Open `http://localhost:3000` in your browser.
 
 ---
 
-## 📦 Building for Production
+## 📦 Production Build & Deploy
 
-To build an optimized production bundle:
+To build the static production distribution:
 
 ```bash
 npm run build
 ```
 
-This generates an optimized static export ready to be deployed to Vercel, Netlify, or GitHub Pages.
+The output will be compiled into `./out` ready for deployment on **Vercel**, **GitHub Pages**, or **Netlify**.
 
 ---
 
-## 🌐 Live Website & Links
+<div align="center">
 
-- **GitHub Repository**: [github.com/manearyan5222/portfolio](https://github.com/manearyan5222/portfolio)
-- **Developer Profile**: [github.com/aryanmane](https://github.com/aryanmane)
-- **LinkedIn**: [linkedin.com/in/aryanmane](https://linkedin.com/in/aryanmane)
+**Built by [Aryan Mane](https://github.com/aryanmane) · 2026**
 
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
+</div>
